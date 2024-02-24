@@ -18,4 +18,64 @@ figure {
 
 /* Breakpoint */
 
-@media only screen and (max-width:)
+@media only screen and (min-width:820px){
+body{
+    background-color: aqua;
+    margin: 10px;
+}
+h1{
+    font-size: 2rem;
+}
+#figs{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; 
+justify-content: center;
+align-items: center;
+}
+figure img{
+    width: 380px;
+}
+h2{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.5rem;
+
+}
+figure figcaption{
+    font-size: 1.5rem;
+}
+
+/* Breakpoint */
+
+@media only screen and (max-width:1550px){
+    body{
+        background-color: sandybrown;
+        margin: 10px;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    #figs{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    }
+    figure img{
+        width: 480px;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 2rem;
+    
+    }
+    figure figcaption{
+        font-size: 2rem;
+    }
+    
+}
